@@ -1,0 +1,38 @@
+site_name: Tutorial avanzado de programación en R
+site_description: Tutorial avanzado para aprender a programar en lenguaje R
+site_author: "José Carlos y Manuel Jesús"
+site_url:
+
+nav:
+      - Inicio: index.md
+      - Tidyverse: tidyverse.md
+      - Visualizar datos: visualizar.md
+      - Importar datos: importar.md
+      - Ordenar datos: ordenar.md
+theme: 
+  name: material
+  palette:
+    primary: teal
+    accent: indigo
+  language: es
+  favicon: icon/favicon.ico
+  font:
+    code: Lucida Console
+  icon:
+    logo: material/dna
+
+extra_css: [extra.css]
+
+extra:
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.inline
+      
